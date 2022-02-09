@@ -1,0 +1,23 @@
+{
+  "root": "packages/core",
+  "sourceRoot": "packages/core/src",
+  "projectType": "library",
+  "generators": {
+    "@nxext/stencil:component": {
+      "style": "scss"
+    }
+  },
+  "tags": [],
+  "targets": {
+    "test": {
+      "executor": "@nxext/stencil:test",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "projectType": "library",
+        "tsConfig": "packages/core/tsconfig.lib.json",
+        "configPath": "packages/core/stencil.config.ts",
+        "outputPath": "dist/packages/core"
+      }
+    }
+  }
+}
