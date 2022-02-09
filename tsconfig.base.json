@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@clanwave/core": ["packages/core/src/index.ts"]
+      "@clanwave/core": ["packages/core/src/index.ts"],
+      "@clanwave/ui": ["dist/packages/core"],
+      "@clanwave/ui/loader": ["dist/packages/core/loader"]
     }
   },
   "exclude": ["node_modules", "tmp"]
