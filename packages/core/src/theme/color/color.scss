@@ -1,0 +1,53 @@
+:host {
+  display: block;
+
+  --height: 180px;
+  --colorHeight: 120px;
+}
+
+:host > div {
+  width: var(--colorHeight);
+  height: var(--height);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  border-radius: 5px;
+}
+
+div > div {
+  height: var(--colorHeight);
+  width: var(--colorHeight);
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+div > span {
+  width: 100%;
+  height: calc(var(--height) - var(--colorHeight));
+
+  padding: 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+  color: grey;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  overflow: hidden;
+}
+
+div > span > span {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}

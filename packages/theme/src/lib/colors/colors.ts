@@ -1,5 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import Color from 'values.js'
+import Color from 'values.js';
 
 export const colors = {
   primary: new Color('#1c72ff'),
@@ -11,5 +12,4 @@ export const colors = {
   dark: new Color('#040e23'),
   medium: new Color('#a4adc0'),
   light: new Color('#ffffff'),
-}
-
+};

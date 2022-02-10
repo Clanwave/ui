@@ -10,7 +10,10 @@
       "path": "./tsconfig.spec.json"
     }
   ],
-  "compilerOptions": {
+  "compilerOptions": {    "lib": ["dom", "es2015"],
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2017",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitReturns": true,

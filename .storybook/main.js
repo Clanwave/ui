@@ -1,8 +1,6 @@
 module.exports = {
-  stories: [
-    '../../theme/src/lib/**/*.stories.mdx',
-  ],
-  addons: ['@storybook/addon-essentials'],
+  stories: [],
+  addons: ['@storybook/addon-essentials', '@storybook/addon-docs'],
   babelDefault: (config) => {
     return {
       ...config,
