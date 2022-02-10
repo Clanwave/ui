@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@clanwave/core": ["packages/core/src/index.ts"],
+      "@clanwave/theme": ["packages/theme/src/index.ts"],
       "@clanwave/ui": ["dist/packages/core"],
       "@clanwave/ui/loader": ["dist/packages/core/loader"]
     }

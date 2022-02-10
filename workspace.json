@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "core": "packages/core",
-    "core-e2e": "packages/core-e2e"
+    "core-e2e": "packages/core-e2e",
+    "theme": "packages/theme"
   }
 }
