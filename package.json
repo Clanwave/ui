@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nx build",
     "serve": "nx serve",
+    "format": "prettier --write ./**/src/**/*",
     "storybook:core": "nx storybook core"
   },
   "private": true,
