@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "nx build",
+    "build": "nx run-many --target=build --all",
     "serve": "nx serve",
     "format": "prettier --write ./**/src/**/*",
     "storybook": "nx storybook core",
