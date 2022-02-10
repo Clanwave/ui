@@ -1,4 +1,4 @@
-import {Component, h, Prop} from '@stencil/core';
+import { Component, h, Prop } from '@stencil/core';
 
 @Component({
   tag: 'c-button',
@@ -11,7 +11,7 @@ export class Button {
    */
   @Prop() label: string;
 
-  render()  {
-    return <button class="ripple">{this.label}</button>
+  render() {
+    return <button class="ripple">{this.label}</button>;
   }
 }

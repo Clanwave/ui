@@ -10,4 +10,3 @@ export default {
 export const Primary = (args) => {
   return <c-button {...args} />;
 };
-
