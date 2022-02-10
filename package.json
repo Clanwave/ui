@@ -7,6 +7,7 @@
     "serve": "nx serve",
     "format": "prettier --write ./**/src/**/*",
     "storybook": "nx storybook core",
+    "build:storybook": "nx build-storybook core",
     "storybook:theme": "nx storybook theme -- -p 4401"
   },
   "private": true,
