@@ -1,0 +1,14 @@
+:host {
+  display: block;
+}
+
+button {
+  padding: 10px 16px;
+  border-radius: 5px;
+  border: none;
+
+
+  &:hover {
+    cursor: pointer;
+  }
+}

@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
-    "core": "packages/core"
+    "core": "packages/core",
+    "core-e2e": "packages/core-e2e"
   }
 }
